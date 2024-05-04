@@ -25,7 +25,7 @@ true =>1, false=>0;*/
 let isLoggedIn="manish"
 let booleanIsloggedIn=Boolean(isLoggedIn);
 
-console.log(booleanIsloggedIn);
+// console.log(booleanIsloggedIn);
 
 // 1 -> true 0 -> false
 // "" ->false
@@ -35,6 +35,41 @@ console.log(booleanIsloggedIn);
 let someN=33;
 let stringSomeN=String(someN);
 
-console.log(typeof stringSomeN);
-console.log(stringSomeN);
+// console.log(typeof stringSomeN);
+// console.log(stringSomeN);
 
+
+// ************ operations***************
+
+let value=3;
+let negValue=-value;
+
+/*console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);*/
+
+
+let str1="Manish"
+let str2=" kumar"
+
+let str3=str1+str2
+
+/*console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+
+console.log("1"+2+2);
+console.log(1+2+"2");*/
+
+// console.log(+true);// 1
+// console.log(+""); //0
+
+let gameCounter=100;
+++gameCounter;
+console.log(gameCounter);
