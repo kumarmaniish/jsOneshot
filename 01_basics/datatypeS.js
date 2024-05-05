@@ -46,9 +46,9 @@ const myFunctions=function(){
 // console.log(myFunctions)
 
 // to identify the data type
-console.log(typeof bigNumber)
-console.log(typeof outSideTemp)
-console.log(typeof myFunctions)
+// console.log(typeof bigNumber)
+// console.log(typeof outSideTemp)
+// console.log(typeof myFunctions)
 
 
 /* Summary of datatypes
@@ -67,3 +67,35 @@ Return type of variables in JavaScript
        Arrays  =>  object
        Function  =>  function
        Object  =>  object */
+
+
+
+
+//  ++++++++++++++++++++++++++++++
+
+/*
+
+    stack (primitive)-> copy milta hai
+    heap (non primitive) --> refernece original value
+
+*/
+
+let myName = "Manish";
+
+let anotherName=myName;
+anotherName="advitiya"
+// console.log(myName);
+// console.log(anotherName);
+
+
+let userOne={
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo=userOne;
+
+userTwo.email="manish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
