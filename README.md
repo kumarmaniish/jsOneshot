@@ -1,2 +1,6 @@
 # jsOneshot
-by hitesh chaudhary 
+by hitesh chaudhary instructor
+
+i will targeting for interview in javascript
+
+
