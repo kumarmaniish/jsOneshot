@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document learning</title>
+    <style>
+        body{
+            background-color: #212121;
+            color:rgb(109, 166, 216);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 id="title"class="heading">Dom learning on chai and code <span style="display: none;">test title</span></h1>
+
+        <!-- values get override when we implement setAttribute method -->
+
+        <p>Lorem ipsum consectetur quis ipsa praesentium at.</p>
+
+
+        <!-- Differnce between innerText, innerHTML, innerContext
+         
+        title.innerHTML
+        'Dom learning on chai and code <span style="display: none;">test title</span>'
+
+        title.textContent
+        'Dom learning on chai and code test title'
+
+        title.innerText
+        Dom learning on chai and code'
+
+        -->
+
+        <h2>Lorem ipsum dolor sit amet consectetur,   itaque sit magnam exercitationem.</h2>
+        <h2>adipisicing elit. Recusandae ipsam et doloremque perferendis commodi animi, illum iure? Doloremque facilis architecto deleniti?</h2>
+        <h2>Minima corrupti non dignissimos atque,</h2>
+
+
+        <!-- Queryselector
+         
+        document.querySelector('h1')
+        <h1 id=​"title" class=​"heading">​"Dom learning on chai and code "<span style=​"display:​ none;​">​test title​</span>​</h1>​
+
+        document.querySelector('h2')
+        <h2>​Lorem ipsum dolor sit amet consectetur, itaque sit magnam exercitationem.​</h2>​
+
+        document.querySelectorAll('h2')
+        NodeList(3) [h2, h2, h2]0: h2accessKey: 
+
+        document.querySelector('#title')
+        <h1 id=​"title" class=​"heading">​"Dom learning on chai and code "<span style=​"display:​ none;​">​test title​</span>​</h1>​
+
+        document.querySelector('.heading')
+        <h1 id=​"title" class=​"heading">​"Dom learning on chai and code "<span style=​"display:​ none;​">​test title​</span>​</h1>​-->
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+
+        
+        <!-- for list 
+    
+
+        const myh1=document.querySelectorAll('h1')
+        undefined
+
+        myh1
+        NodeList [h1#title.heading]
+
+        myh1[0].style.color='green'
+        'green'
+
+        const tempLiList=document.querySelectorAll('li')
+        undefined
+
+        tempLiList
+        NodeList(2) [li, li]
+
+        tempLiList.forEach(function(l){
+            l.style.backgroundColor='green'
+        })
+
+        undefined-->
+
+
+
+        <!-- To convert html collections to array
+         
+        const tempClassList = document.getElementsByClassName('list-item')
+        undefined
+
+        tempClassList
+        HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+
+        //convert it into array for perform operations
+        Array.from(tempClassList)
+        (4) [li.list-item, li.list-item, li.list-item, li.list-item]
+        
+        const myConvertedArray=Array.from(tempClassList)
+        undefined
+
+        myConvertedArray.forEach(function(li){
+            li.style.color='orange'
+        })
+        undefined
+        -->
+
+    </div>
+</body>
+</html>
