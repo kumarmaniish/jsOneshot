@@ -17,7 +17,7 @@ let userId=undefined;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 
-// console.log(id === anotherId);
+// console.log(id === anotherId);  for each symbol it defines a unique value
 
 const bigNumber = 3456765437823456789876n;
 // javascript is a dynamically type language where the interpreter assigns variables a type at runtime
@@ -46,9 +46,9 @@ const myFunctions=function(){
 // console.log(myFunctions)
 
 // to identify the data type
-// console.log(typeof bigNumber)
-// console.log(typeof outSideTemp)
-// console.log(typeof myFunctions)
+// console.log(typeof bigNumber) //bigint
+// console.log(typeof outSideTemp) //null
+// console.log(typeof myFunctions) //function
 
 
 /* Summary of datatypes
